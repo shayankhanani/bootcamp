@@ -33,4 +33,4 @@ jobs:
         run: npm install --global surge
         
       - name: Execute Deployment
-        run: surge ./bootcampc1.shayan.surge.sh --token ${{secrets.c01_surge_token}}
+        run: surge ./ bootcampc1.shayan.surge.sh --token ${{ secrets.C01_SURGE_TOKEN }}
